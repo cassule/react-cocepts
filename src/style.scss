@@ -10,6 +10,7 @@ body {
 
 .header {
   width: 100%;
+  padding: 10px;
   text-align: center;
   background: #4165b1;
 
@@ -22,24 +23,40 @@ body {
 
 .post {
   background-color: #f8f8f8;
-  width: 350px;
-  height: 250px;
+  width: 500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px 20px;
 
   p {
     color: #757373;
     font-size: 14px;
-    line-height: normal;
+    line-height: 1.5rem;
   }
 
   .post-header {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    display: flex;
 
-    h4 {
-      color: #4d4949;
-      text-transform: uppercase;
-      font-weight: 400;
+    img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50px;
+    }
+
+    .title {
+      padding: 10px;
+
+      h2 {
+        color: #4d4949;
+        font-weight: 400;
+      }
+
+      span {
+        color: #757373;
+        font-size: 10px;
+      }
     }
   }
+
+  box-shadow: 2px 2px #8888882f;
 }

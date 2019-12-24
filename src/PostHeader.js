@@ -5,7 +5,16 @@ class PostHeader extends Component {
     return (
       <>
         <div className="post-header">
-          <h4>PostHeader</h4>
+          <img
+            src="https://api.adorable.io/avatars/183/johnny-english.png"
+            alt="Image"
+          ></img>
+
+          <div className="title">
+            <h2>Josué Francisco</h2>
+
+            <span>3 min</span>
+          </div>
         </div>
       </>
     );
