@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  background: #2b59bb;
+
+  h1 {
+    color: #fff;
+  }
+
+  margin-bottom: 20px;
+}
+
+.post {
+  background-color: #fff;
+  width: 350px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+
+  p {
+    color: #757373;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .post-header {
+    padding-bottom: 5px;
+
+    h4 {
+      color: #4d4949;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+}
