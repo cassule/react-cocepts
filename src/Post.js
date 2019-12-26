@@ -1,23 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 
 import PostHeader from "./PostHeader";
 
-class Post extends Component {
-  render() {
-    return (
-      <>
-        <div className="post">
-          <PostHeader />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odio
-            nemo minus tenetur id sequi rem explicabo architecto, cum
-            asperiores, aut ex reprehenderit assumenda perferendis ratione
-            quisquam necessitatibus, nihil iusto.
-          </p>
-        </div>
-      </>
-    );
-  }
-}
+const Post = ({ data }) => (
+  <div className="row">
+    <div className="post">
+      <PostHeader avatar={data.avatar} title={data.title} time={data.time} />
+      <p>{data.body}</p>
+    </div>
+  </div>
+);
 
 export default Post;
